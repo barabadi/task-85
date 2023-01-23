@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 const pokemonCount = 10;
-const url = `https://pokeapi.co/api/v2/pokemon?limit=${pokemonCount}`;
+const url = `https://pokeapi.co/api/v2/pokemon?limit=10{pokemonCount}`;
 const pokemonList = document.getElementById("pokemon-list");
 
 fetch(url)
